@@ -12,6 +12,7 @@
 .git
 .gitconfig
 .gnupg
+.gpg*
 .heroku
 .irb-history
 .postgres
