@@ -46,13 +46,6 @@ se numberwidth=5
 se ruler                      " show line/column number
 se showcmd
 
-" se statusline=%f
-" se statusline+=%{fugitive#statusline()}
-" se statusline+=%m
-" se statusline+=%r
-" se statusline+=%y
-" se statusline+=%#error#
-
 se winminheight=0
 se winheight=999
 se fillchars+=vert:           " non breaking space
@@ -95,10 +88,6 @@ inoremap <D-j> <Esc>:m+<CR>==gi
 inoremap <D-k> <Esc>:m-2<CR>==gi
 vnoremap <D-j> :m'>+<CR>gv=gv
 vnoremap <D-k> :m-2<CR>gv=gv
-inoremap <Esc> <Esc>:w<CR>
-
-" Source .vimr if we just wrote to .vimrc
-autocmd bufwritepost .vimrc source $MYVIMRC
 
 au GUIEnter * exe ":VimTree"
 " au GUIEnter * exe ":Deliminator"
