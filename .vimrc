@@ -64,6 +64,8 @@ se linespace=2
 
 se clipboard=unnamed          " use the OSX clipboard
 
+se <BS>=
+
 compiler ruby
 
 au FocusLost * :silent! wa    " autosave on focus lost
