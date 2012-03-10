@@ -91,10 +91,10 @@ inoremap <D-k> <Esc>:m-2<CR>==gi
 vnoremap <D-j> :m'>+<CR>gv=gv
 vnoremap <D-k> :m-2<CR>gv=gv
 
-au GUIEnter * exe ":VimTree"
+au VimEnter * exe ":VimTree"
+" au GUIEnter * exe ":VimTree"
 " au GUIEnter * exe ":Deliminator"
 
 au BufRead,BufNewFile *.rabl set filetype=ruby
 
 let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir']
-
