@@ -5,6 +5,7 @@
 .brew
 .bundle
 .ctrlp_cache
+.cups
 .dropbox
 .ec2
 .erlang.cookie
@@ -16,6 +17,7 @@
 .gpg*
 .heroku
 .irb-history
+.lesshst
 .postgres
 .rvm
 .ssh
