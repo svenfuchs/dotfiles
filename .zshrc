@@ -13,6 +13,6 @@ source ~/.zsh/lib/key-bindings.zsh
 # source ~/.zsh/lib/osx.zsh
 
 source ~/.zsh/lib/grep.zsh
-source ~/.zsh/lib/rvm.zsh
+# source ~/.zsh/lib/rvm.zsh
 
 # source ~/.ec2/setup
