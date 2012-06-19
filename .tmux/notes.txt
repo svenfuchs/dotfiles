@@ -1,0 +1,22 @@
+tmux new -s sven
+
+tmux ls
+tmux attach [-t session_name]
+tmux kill-session -t session_name
+
+ctrl-a d         # detach from session
+
+ctrl-a c         # new window
+ctrl-a n         # next window
+ctrl-a p         # previous window
+ctrl-a [1-9]     # go to window
+ctrl-a w         # visual window menu
+ctrl-a ,         # rename a window
+
+ctrl-a |         # vertical split
+ctrl-a -         # horizontal split
+ctrl-a o         # cycle through panes
+ctrl-a [hjkl]    # move to pane
+
+ctrl-a
+

@@ -1,0 +1,30 @@
+session:
+  name: travis
+  windows:
+    - name: travis-pro-build
+      root: ~/Development/projects/travis/travis-pro-build
+      filters:
+        before:
+          - 'rvm use jruby-1.6.6'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-worker
+      root: ~/Development/projects/travis/travis-worker
+      filters:
+        before:
+          - 'rvm use jruby-1.6.6'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-build
+      root: ~/Development/projects/travis/travis-build
+      filters:
+        before:
+          - 'rvm use jruby-1.6.6'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
