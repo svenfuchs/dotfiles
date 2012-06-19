@@ -1,3 +1,5 @@
+/[A-Z]*
+*.pem
 .DS_Store
 .Trash
 .adobe
@@ -18,7 +20,11 @@
 .heroku
 .irb-history
 .lesshst
+.netrc
 .postgres
+.rbenv/
+.rbx/
+.rubinius_last_error
 .rvm
 .ssh
 .vagrant.d
@@ -26,4 +32,4 @@
 .vim/bundle
 .zsh/.*
 .zsh_history
-/[A-Z]*
+.pry_history
