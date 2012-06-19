@@ -3,6 +3,11 @@ travis=~/Development/projects/travis
 alias -- -='cd -'
 alias l='ls -al'
 alias md='mkdir -p'
+alias vi='vim'
+alias tx='tmux'
+alias txa='tmux attach'
+# alias tx='tmux -f .tmux/tmux.conf'
+alias tea='teamocil --here'
 
 # Show history
 alias history='fc -l 1'

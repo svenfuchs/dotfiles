@@ -2,6 +2,7 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
+" colorscheme smyck
 colorscheme github
 " colorscheme railscast
 " colorscheme solarized
@@ -18,6 +19,8 @@ se nowritebackup
 se noswapfile
 se history=1000
 se viminfo+=n$HOME/.vim/.viminfo
+
+se timeout timeoutlen=500 ttimeoutlen=-1
 
 se autoread                   " auto read files changed outside of vim
 " se hidden
@@ -92,7 +95,6 @@ vnoremap <D-j> :m'>+<CR>gv=gv
 vnoremap <D-k> :m-2<CR>gv=gv
 
 au VimEnter * exe ":VimTree"
-" au GUIEnter * exe ":VimTree"
 " au GUIEnter * exe ":Deliminator"
 
 au BufRead,BufNewFile *.rabl set filetype=ruby

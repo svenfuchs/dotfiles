@@ -1,5 +1,5 @@
 # export EDITOR="/usr/bin/mate -w"
-export EDITOR=vim
+export EDITOR="/usr/local/bin/vim"
 export PAGER=less
 export TERM=xterm-256color
 

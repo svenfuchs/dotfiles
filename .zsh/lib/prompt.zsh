@@ -7,7 +7,7 @@ zstyle ':vcs_info:*' enable git
 zstyle ':vcs_info:git:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats       ' [%b%u]'
 zstyle ':vcs_info:git:*' actionformats ' [%b%u | %a}'
-zstyle ':vcs_info:git:*' unstagedstr   "%{$fg[red]%}⚡%{$fg[black]%}"
+zstyle ':vcs_info:git:*' unstagedstr   "%{$fg[red]%}⚡%{$reset_color%}"
 # zstyle ':vcs_info:git:*' stagedstr     "%{$fg[green]%}⚡%{$fg[black]%}"
 zstyle ':vcs_info:*' nvcsformats ''
 

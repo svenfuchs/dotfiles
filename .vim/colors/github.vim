@@ -95,8 +95,6 @@ match ExtraWhitespace /\s\+\%#\@<!$/
 au InsertEnter * match ExtraWhiteSpace /\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhiteSpace /\s\+$/
 
-" au InsertEnter * hi StatusLine ctermbg=16 ctermfg=1
-" au InsertLeave * hi StatusLine ctermbg=16 ctermfg=8
+au InsertEnter * hi StatusLine guifg=#dd6666 guibg=#ffffff ctermbg=15  ctermfg=1
+au InsertLeave * hi StatusLine guifg=#efefef guibg=#ffffff ctermbg=250 ctermfg=231
 
-au InsertEnter * hi StatusLine guifg=#dd6666 guibg=#ffffff
-au InsertLeave * hi StatusLine guifg=#bbbbbb guibg=#ffffff
