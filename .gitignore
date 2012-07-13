@@ -19,8 +19,10 @@
 .gpg*
 .heroku
 .irb-history
+.irb_history
 .lesshst
 .netrc
+.npm
 .postgres
 .rbenv/
 .rbx/
