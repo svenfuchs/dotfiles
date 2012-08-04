@@ -16,7 +16,7 @@ export ERL_LIBS='/usr/local/Cellar/rabbitmq/2.0.0/lib/rabbitmq/erlang/lib:$ERL_L
 export PGDATA=/usr/local/var/postgres
 export SILENCE_LOG_TAILER=yes
 
-export CC="/usr/bin/gcc-4.2"
+export CC="/usr/bin/gcc"
 
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
 export CLASSPATH="/Volumes/Users/sven/Library/Java/Extensions"

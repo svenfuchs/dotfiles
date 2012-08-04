@@ -22,4 +22,5 @@ alias bi='bundle install'
 alias bu='bundle update'
 alias brake='bundle exec rake'
 alias birb='bundle exec irb'
+alias brackup='bundle exec rackup'
 

@@ -19,6 +19,15 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
+    - name: travis-listener
+      root: ~/Development/projects/travis/travis-listener
+      filters:
+        before:
+          - 'rbenv shell 1.9.3-p125-perf'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
     - name: travis-core
       root: ~/Development/projects/travis/travis-core
       filters:
@@ -37,11 +46,20 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-ember
-      root: ~/Development/projects/travis/travis-ember
+    - name: travis-worker
+      root: ~/Development/projects/travis/travis-worker
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv shell jruby-1.6.7'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-build
+      root: ~/Development/projects/travis/travis-build
+      filters:
+        before:
+          - 'rbenv shell jruby-1.6.7'
       splits:
         - cmd: vim
         - cmd: clear
