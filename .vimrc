@@ -63,7 +63,7 @@ se go-=r                      " no right scrollbar
 se visualbell                 " no audible bell
 se noerrorbells
 se cursorline
-se guifont=Menlo:h12.00
+se guifont=Menlo\ for\ Powerline:h12.00
 se linespace=2
 
 se clipboard=unnamed          " use the OSX clipboard
