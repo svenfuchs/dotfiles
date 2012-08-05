@@ -1,0 +1,23 @@
+; speed up key repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 10
+
+
+; map caps-lock to esc, map ctrl to esc
+http://www.quora.com/How-can-I-remap-Caps-Lock-in-Mac-OS-X-so-that-it-acts-like-Control-in-Emacs-but-acts-like-Escape-in-Vim
+
+
+; iterm2
+load solarized color presets from http://ethanschoonover.com/solarized
+
+
+; vim, fix clipboard
+; https://gist.github.com/721952
+brew install https://raw.github.com/gist/721952/vim.rb --HEAD --with-features=huge --enable-clipboard --enable-interp=ruby
+
+
+; tmux
+; install tmux-MacOSX-pasteboard
+cd Desktop
+git clone https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard.git
+cd tmux-MacOSX-pasteboard
+make reattach-to-user-namespace && cp reattach-to-user-namespace /usr/local/bin/
