@@ -67,6 +67,7 @@ se guifont=Menlo\ for\ Powerline:h12.00
 se linespace=2
 
 se clipboard=unnamed          " use the OSX clipboard
+se paste
 
 se <BS>=
 
