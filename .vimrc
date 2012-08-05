@@ -1,13 +1,11 @@
 filetype off
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
 
 " colorscheme smyck
-colorscheme github
+" colorscheme github
 " colorscheme railscast
-" colorscheme solarized
-" se background=dark
-se background=light
+colorscheme solarized
+se background=dark
+" se background=light
 
 syntax on                      " syntax highlighting
 filetype plugin indent on      " load ftplugins and indent files
@@ -19,6 +17,9 @@ se nowritebackup
 se noswapfile
 se history=1000
 se viminfo+=n$HOME/.vim/.viminfo
+
+" init vundle
+source ~/.vim/bundle.vim
 
 se timeout timeoutlen=500 ttimeoutlen=-1
 

@@ -6,6 +6,7 @@
 .backup
 .brew
 .bundle
+.cache
 .ctrlp_cache
 .cups
 .dropbox
@@ -14,7 +15,6 @@
 .gem
 .gemrc
 .git
-.gitconfig
 .gnupg
 .gpg*
 .heroku
@@ -30,8 +30,8 @@
 .rvm
 .ssh
 .vagrant.d
-.vim/.*
 .vim/bundle
+.vim/.viminfo
 .zsh/.*
 .zsh_history
 .pry_history

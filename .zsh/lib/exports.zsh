@@ -20,5 +20,4 @@ export CC="/usr/bin/gcc"
 
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
 export CLASSPATH="/Volumes/Users/sven/Library/Java/Extensions"
-export VIM_APP_DIR='/Volumes/Users/sven/Applications/editor'
 

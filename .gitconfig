@@ -1,0 +1,37 @@
+[include]
+  path = ~/.gitconfig.private
+[user]
+  name = Sven Fuchs
+  email = svenfuchs@artweb-design.de
+[color]
+  ui = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  cp = cherry-pick
+  unstage = reset HEAD --
+  edit   = commit --amend --edit
+  revise = commit --amend -aC HEAD
+  last = log -1 HEAD --decorate
+  juti = commit
+  jeze = push
+  wasn = status
+  crap = reset --hard
+  # remove all local branches included in the current branch
+  cleanup = !git branch | grep -E '^[^*]' | xargs git branch -d
+  l = log --decorate --graph --oneline
+  g = grep -n
+[merge]
+  tool = opendiff
+[core]
+  # editor = mate -w
+  excludesfile = /Volumes/Users/sven/.git/ignore
+  whitespace = fix
+  quotepath = false
+[heroku]
+  account = sven
