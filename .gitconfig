@@ -29,9 +29,8 @@
 [merge]
   tool = opendiff
 [core]
-  # editor = mate -w
-  excludesfile = /Volumes/Users/sven/.git/ignore
   whitespace = fix
   quotepath = false
+  excludesfile = ~/.gitignore.global
 [heroku]
   account = sven

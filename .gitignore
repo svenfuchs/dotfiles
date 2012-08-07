@@ -34,3 +34,5 @@
 .zsh/.*
 .zsh_history
 .pry_history
+.DS_Store
+Thumbs.db

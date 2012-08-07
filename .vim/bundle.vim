@@ -23,6 +23,6 @@ Bundle 'mattn/gist-vim'
 " APPEARANCE
 
 " Bundle 'godlygeek/csapprox'
+" Bundle 'Lokaltog/vim-powerline'
 Bundle 'svenfuchs/vim-layout'
 Bundle 'svenfuchs/vim-tree'
-Bundle 'Lokaltog/vim-powerline'

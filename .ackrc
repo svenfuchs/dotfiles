@@ -1,3 +1,10 @@
---type-add=ruby=.haml,.rake,.js,.rabl
---type-add=coffee=.coffee
+--color
+--type-add=ruby=.haml,.rake,.rabl,.thor,Gemfile,Thorfile,Rakefile
+--type-add=js=.coffee
+--type-set=css=.css,.sass,.scss
 
+--type-set=exclude=.orig
+--noexclude
+
+--ignore-dir=tmp
+--ignore-dir=public
