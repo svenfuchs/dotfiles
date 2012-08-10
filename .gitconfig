@@ -2,7 +2,7 @@
   path = ~/.gitconfig.private
 [user]
   name = Sven Fuchs
-  email = svenfuchs@artweb-design.de
+  email = me@svenfuchs.com
 [color]
   ui = auto
   status = auto
@@ -34,3 +34,5 @@
   excludesfile = ~/.gitignore.global
 [heroku]
   account = sven
+[credential]
+  helper = osxkeychain
