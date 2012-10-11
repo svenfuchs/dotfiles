@@ -5,7 +5,7 @@ session:
       root: ~/Development/projects/travis/travis-pro-ci
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
@@ -14,25 +14,34 @@ session:
       root: ~/Development/projects/travis/travis-pro-hub
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-pro-listener
-      root: ~/Development/projects/travis/travis-pro-listener
+    - name: travis-pro-logs
+      root: ~/Development/projects/travis/travis-pro-logs
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use jruby-1.6.7'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
+    # - name: travis-pro-listener
+    #   root: ~/Development/projects/travis/travis-pro-listener
+    #   filters:
+    #     before:
+    #       - 'rbenv use 1.9.3'
+    #   splits:
+    #     - cmd: vim
+    #     - cmd: clear
+    #       width: 50
     - name: travis-pro-core
       root: ~/Development/projects/travis/travis-pro-core
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
@@ -41,7 +50,7 @@ session:
       root: ~/Development/projects/travis/travis-ci
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
@@ -50,25 +59,34 @@ session:
       root: ~/Development/projects/travis/travis-hub
       filters:
         before:
-          - 'rbenv shell jruby-1.6.7'
+          - 'rbenv use jruby-1.6.7'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-listener
-      root: ~/Development/projects/travis/travis-listener
+    - name: travis-logs
+      root: ~/Development/projects/travis/travis-logs
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use jruby-1.6.7'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
+    # - name: travis-listener
+    #   root: ~/Development/projects/travis/travis-listener
+    #   filters:
+    #     before:
+    #       - 'rbenv use 1.9.3'
+    #   splits:
+    #     - cmd: vim
+    #     - cmd: clear
+    #       width: 50
     - name: travis-core
       root: ~/Development/projects/travis/travis-core
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
@@ -77,7 +95,7 @@ session:
       root: ~/Development/projects/travis/travis-assets
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear
@@ -86,7 +104,7 @@ session:
       root: ~/Development/projects/travis/travis-support
       filters:
         before:
-          - 'rbenv shell 1.9.3-p125-perf'
+          - 'rbenv use 1.9.3'
       splits:
         - cmd: vim
         - cmd: clear

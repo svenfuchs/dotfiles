@@ -1,5 +1,5 @@
 --color
---type-add=ruby=.haml,.rake,.rabl,.thor,Gemfile,Thorfile,Rakefile
+--type-add=ruby=.haml,.rake,.rabl,.thor,Gemfile,Thorfile,Rakefile,.hbs
 --type-add=js=.coffee
 --type-set=css=.css,.sass,.scss
 

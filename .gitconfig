@@ -26,6 +26,7 @@
   cleanup = !git branch | grep -E '^[^*]' | xargs git branch -d
   l = log --decorate --graph --oneline
   g = grep -n
+  d = diff --word-diff
 [merge]
   tool = opendiff
 [core]

@@ -12,6 +12,7 @@ alias tea='teamocil --here'
 # Show history
 alias history='fc -l 1'
 
+alias rb='rbenv'
 alias js='java org.mozilla.javascript.tools.shell.Main'
 alias ctags=/usr/local/bin/ctags
 alias gitx='gitx -c'
@@ -22,5 +23,4 @@ alias bi='bundle install'
 alias bu='bundle update'
 alias brake='bundle exec rake'
 alias birb='bundle exec irb'
-alias brackup='bundle exec rackup'
 

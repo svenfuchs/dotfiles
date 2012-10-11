@@ -19,5 +19,6 @@ export SILENCE_LOG_TAILER=yes
 export CC="/usr/bin/gcc"
 
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
-export CLASSPATH="/Volumes/Users/sven/Library/Java/Extensions"
+export CLASSPATH="/Users/sven/Library/Java/Extensions"
 
+export GOPATH="/Users/sven/Development/play/go"
