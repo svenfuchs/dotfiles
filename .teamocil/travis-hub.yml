@@ -1,0 +1,57 @@
+session:
+  name: travis-hub
+  windows:
+    - name: travis-hub
+      root: ~/Development/projects/travis/travis-hub
+      filters:
+        before:
+          - 'rbenv use jruby-1.6.7'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-logs
+      root: ~/Development/projects/travis/travis-logs
+      filters:
+        before:
+          - 'rbenv use jruby-1.6.7'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-tasks
+      root: ~/Development/projects/travis/travis-tasks
+      filters:
+        before:
+          - 'rbenv use jruby-1.6.7'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    # - name: travis-listener
+    #   root: ~/Development/projects/travis/travis-listener
+    #   filters:
+    #     before:
+    #       - 'rbenv shell 1.9.3-p125-perf'
+    #   splits:
+    #     - cmd: vim
+    #     - cmd: clear
+    #       width: 50
+    - name: travis-core
+      root: ~/Development/projects/travis/travis-core
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-support
+      root: ~/Development/projects/travis/travis-support
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50

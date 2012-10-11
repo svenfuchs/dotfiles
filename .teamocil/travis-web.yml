@@ -1,0 +1,48 @@
+session:
+  name: travis
+  windows:
+    - name: travis-ci
+      root: ~/Development/projects/travis/travis-ci
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-core
+      root: ~/Development/projects/travis/travis-core
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-api
+      root: ~/Development/projects/travis/travis-api
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-web
+      root: ~/Development/projects/travis/travis-web
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-pro-web
+      root: ~/Development/projects/travis/travis-pro-web
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50

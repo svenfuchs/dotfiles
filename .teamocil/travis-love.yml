@@ -1,0 +1,48 @@
+session:
+  name: travis
+  windows:
+    - name: travis-crowd
+      root: ~/Development/projects/travis/travis-crowd
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-ci
+      root: ~/Development/projects/travis/travis-ci
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-hub
+      root: ~/Development/projects/travis/travis-hub
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-web
+      root: ~/Development/projects/travis/travis-web
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-keychain
+      root: ~/Development/projects/travis/travis-keychain
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
