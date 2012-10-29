@@ -29,6 +29,7 @@ se expandtab
 se smarttab
 se backspace=indent,eol,start " allow backspacing over everything in insert mode
 se scrolloff=6                " keep 4 lines of context when scrolling
+set showbreak=↪
 
 se foldmethod=syntax
 se nofoldenable
@@ -81,6 +82,7 @@ vnoremap <D-j> :m'>+<CR>gv=gv
 vnoremap <D-k> :m-2<CR>gv=gv
 
 au BufNewFile,BufRead *.coffee set filetype=coffee
+au BufNewFile,BufRead *.hbs    set filetype=handlebars
 
 au VimEnter * exe ":VimTree"
 

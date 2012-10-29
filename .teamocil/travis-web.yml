@@ -37,6 +37,15 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
+    - name: travis-pro-api
+      root: ~/Development/projects/travis/travis-pro-api
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
     - name: travis-pro-web
       root: ~/Development/projects/travis/travis-pro-web
       filters:

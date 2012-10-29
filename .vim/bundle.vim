@@ -18,6 +18,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'nono/vim-handlebars'
 " Bundle 'tpope/vim-endwise'
 " Bundle 'tpope/vim-markdown'
 
