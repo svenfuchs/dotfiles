@@ -19,6 +19,33 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
+    - name: travis-tasks
+      root: ~/Development/projects/travis/travis-tasks
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-logs
+      root: ~/Development/projects/travis/travis-logs
+      filters:
+        before:
+          - 'rbenv use jruby'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-enqueue
+      root: ~/Development/projects/travis/travis-enqueue
+      filters:
+        before:
+          - 'rbenv use jruby'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
     - name: travis-api
       root: ~/Development/projects/travis/travis-api
       filters:

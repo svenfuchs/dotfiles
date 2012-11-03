@@ -14,7 +14,7 @@ session:
       root: ~/Development/projects/travis/travis-pro-hub
       filters:
         before:
-          - 'rbenv use 1.9.3'
+          - 'rbenv use jruby'
       splits:
         - cmd: vim
         - cmd: clear
@@ -23,7 +23,7 @@ session:
       root: ~/Development/projects/travis/travis-pro-logs
       filters:
         before:
-          - 'rbenv use jruby-1.6.7'
+          - 'rbenv use jruby'
       splits:
         - cmd: vim
         - cmd: clear
@@ -59,7 +59,16 @@ session:
       root: ~/Development/projects/travis/travis-hub
       filters:
         before:
-          - 'rbenv use jruby-1.6.7'
+          - 'rbenv use jruby'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-tasks
+      root: ~/Development/projects/travis/travis-tasks
+      filters:
+        before:
+          - 'rbenv use jruby'
       splits:
         - cmd: vim
         - cmd: clear
@@ -68,7 +77,7 @@ session:
       root: ~/Development/projects/travis/travis-logs
       filters:
         before:
-          - 'rbenv use jruby-1.6.7'
+          - 'rbenv use jruby'
       splits:
         - cmd: vim
         - cmd: clear
@@ -91,21 +100,21 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-assets
-      root: ~/Development/projects/travis/travis-assets
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: travis-support
-      root: ~/Development/projects/travis/travis-support
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
+    # - name: travis-assets
+    #   root: ~/Development/projects/travis/travis-assets
+    #   filters:
+    #     before:
+    #       - 'rbenv use 1.9.3'
+    #   splits:
+    #     - cmd: vim
+    #     - cmd: clear
+    #       width: 50
+    # - name: travis-support
+    #   root: ~/Development/projects/travis/travis-support
+    #   filters:
+    #     before:
+    #       - 'rbenv use 1.9.3'
+    #   splits:
+    #     - cmd: vim
+    #     - cmd: clear
+    #       width: 50
