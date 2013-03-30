@@ -22,3 +22,5 @@ export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
 export CLASSPATH="/Users/sven/Library/Java/Extensions"
 
 export GOPATH="/Users/sven/Development/play/go"
+
+export LOCALEAPP_API_KEY=QfVzW8YumwGB20GPwgNAVK5ZEAfKSheRRQJ8qXy9dHIDRKWmEA

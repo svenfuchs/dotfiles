@@ -4,7 +4,7 @@
   name = Sven Fuchs
   email = me@svenfuchs.com
 [color]
-  ui = auto
+	ui = true
   status = auto
   diff = auto
   branch = auto
@@ -28,7 +28,7 @@
   g = grep -n
   d = diff --word-diff
 [merge]
-  tool = opendiff
+	tool = diffmerge
 [core]
   whitespace = fix
   quotepath = false
@@ -37,3 +37,6 @@
   account = sven
 [credential]
   helper = osxkeychain
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true

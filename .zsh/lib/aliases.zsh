@@ -24,3 +24,5 @@ alias bu='bundle update'
 alias brake='bundle exec rake'
 alias birb='bundle exec irb'
 
+alias git=hub
+

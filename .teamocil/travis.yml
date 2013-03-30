@@ -1,7 +1,43 @@
 session:
   name: travis
   windows:
-    - name: travis-ci
+    - name: pro-ci
+      root: ~/Development/projects/travis/travis-pro-ci
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: pro-hub
+      root: ~/Development/projects/travis/travis-pro-hub
+      filters:
+        before:
+          - 'rbenv use jruby'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: pro-logs
+      root: ~/Development/projects/travis/travis-pro-logs
+      filters:
+        before:
+          - 'rbenv use jruby'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: pro-core
+      root: ~/Development/projects/travis/travis-pro-core
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: ci
       root: ~/Development/projects/travis/travis-ci
       filters:
         before:
@@ -10,7 +46,7 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-core
+    - name: core
       root: ~/Development/projects/travis/travis-core
       filters:
         before:
@@ -19,7 +55,7 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-tasks
+    - name: tasks
       root: ~/Development/projects/travis/travis-tasks
       filters:
         before:
@@ -28,7 +64,7 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-logs
+    - name: logs
       root: ~/Development/projects/travis/travis-logs
       filters:
         before:
@@ -37,16 +73,7 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-enqueue
-      root: ~/Development/projects/travis/travis-enqueue
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: travis-api
+    - name: api
       root: ~/Development/projects/travis/travis-api
       filters:
         before:
@@ -55,7 +82,7 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-web
+    - name: web
       root: ~/Development/projects/travis/travis-web
       filters:
         before:
