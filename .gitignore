@@ -36,3 +36,5 @@
 .pry_history
 .DS_Store
 Thumbs.db
+.guard_history
+.travis

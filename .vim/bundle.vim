@@ -8,6 +8,8 @@ filetype plugin indent on
 
 " EDITING
 
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'terryma/vim-expand-region'
 Bundle 'tpope/vim-surround'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'mileszs/ack.vim'
@@ -19,6 +21,8 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'nono/vim-handlebars'
+Bundle 'rstacruz/sparkup.git'
+Bundle 'slim-template/vim-slim'
 " Bundle 'tpope/vim-endwise'
 " Bundle 'tpope/vim-markdown'
 

@@ -1,19 +1,19 @@
 #! /bin/zsh
 
-source ~/.zsh/lib/exports.zsh
-source ~/.zsh/lib/options.zsh
-source ~/.zsh/lib/aliases.zsh
+source ~/.zsh/exports.zsh
+source ~/.zsh/options.zsh
+source ~/.zsh/aliases.zsh
 
-source ~/.zsh/lib/prompt.zsh
-source ~/.zsh/lib/completion.zsh
-source ~/.zsh/lib/history.zsh
-source ~/.zsh/lib/functions.zsh
-source ~/.zsh/lib/key-bindings.zsh
-# source ~/.zsh/lib/terminal.zsh
-# source ~/.zsh/lib/osx.zsh
+source ~/.zsh/prompt.zsh
+source ~/.zsh/completion.zsh
+source ~/.zsh/history.zsh
+source ~/.zsh/functions.zsh
+source ~/.zsh/key-bindings.zsh
+# source ~/.zsh/terminal.zsh
+# source ~/.zsh/osx.zsh
 
-source ~/.zsh/lib/grep.zsh
-source ~/.zsh/lib/rbenv.zsh
-# source ~/.zsh/lib/rvm.zsh
+source ~/.zsh/grep.zsh
+source ~/.zsh/rbenv.zsh
+# source ~/.zsh/rvm.zsh
 
 # source ~/.ec2/setup

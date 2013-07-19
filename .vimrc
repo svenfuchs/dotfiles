@@ -74,15 +74,16 @@ map <s-tab> <c-w>W
 " Use ctrl-n to unhighlight search results in normal mode
 nmap <silent> <C-N> :silent noh<CR>
 
-nnoremap <D-j> :m+<CR>==
-nnoremap <D-k> :m-2<CR>==
-inoremap <D-j> <Esc>:m+<CR>==gi
-inoremap <D-k> <Esc>:m-2<CR>==gi
-vnoremap <D-j> :m'>+<CR>gv=gv
-vnoremap <D-k> :m-2<CR>gv=gv
+" nnoremap <D-j> :m+<CR>==
+" nnoremap <D-k> :m-2<CR>==
+" inoremap <D-j> <Esc>:m+<CR>==gi
+" inoremap <D-k> <Esc>:m-2<CR>==gi
+" vnoremap <D-j> :m'>+<CR>gv=gv
+" vnoremap <D-k> :m-2<CR>gv=gv
 
 au BufNewFile,BufRead *.coffee set filetype=coffee
 au BufNewFile,BufRead *.hbs    set filetype=handlebars
+au BufNewFile,BufRead *.slim   set filetype=slim
 
 au VimEnter * exe ":VimTree"
 

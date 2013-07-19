@@ -1,6 +1,24 @@
 session:
   name: travis
   windows:
+    - name: travis-2012
+      root: ~/Development/projects/travis/travis-2012
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: travis-foundation
+      root: ~/Development/projects/travis/travis-foundation
+      filters:
+        before:
+          - 'rbenv use 1.9.3'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
     - name: travis-crowd
       root: ~/Development/projects/travis/travis-crowd
       filters:
