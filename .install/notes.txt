@@ -2,12 +2,16 @@
 defaults write NSGlobalDomain KeyRepeat -int 10
 
 
-; map caps-lock to esc, map ctrl to esc
-http://www.quora.com/How-can-I-remap-Caps-Lock-in-Mac-OS-X-so-that-it-acts-like-Control-in-Emacs-but-acts-like-Escape-in-Vim
+; Map Caps Lock key to both Control and Escape
+https://coderwall.com/p/uo_big?i=1&p=1&q=author%3Amislav&t%5B%5D=mislav
 
 
 ; iterm2
 load solarized color presets from http://ethanschoonover.com/solarized
+
+
+; Seamlessly navigate tmux and vim splits
+https://coderwall.com/p/rwmdvq?i=2&p=1&q=author%3Amislav&t%5B%5D=mislav
 
 
 ; vim, fix clipboard
@@ -16,8 +20,6 @@ brew install https://raw.github.com/gist/721952/vim.rb --HEAD --with-features=hu
 
 
 ; tmux
-; install tmux-MacOSX-pasteboard
-cd Desktop
-git clone https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard.git
-cd tmux-MacOSX-pasteboard
-make reattach-to-user-namespace && cp reattach-to-user-namespace /usr/local/bin/
+; install reattach-to-user-namespace
+brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
+

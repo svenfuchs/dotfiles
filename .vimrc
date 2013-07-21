@@ -71,6 +71,8 @@ let mapleader = " "
 map <tab> <c-w>w
 map <s-tab> <c-w>W
 
+vnoremap p "0dP
+
 " Use ctrl-n to unhighlight search results in normal mode
 nmap <silent> <C-N> :silent noh<CR>
 
