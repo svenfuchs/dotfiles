@@ -23,3 +23,7 @@ brew install https://raw.github.com/gist/721952/vim.rb --HEAD --with-features=hu
 ; install reattach-to-user-namespace
 brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
 
+
+; contacts
+; setup google contacts sync via carddav
+http://512pixels.net/2012/12/contacts-google-carddav/

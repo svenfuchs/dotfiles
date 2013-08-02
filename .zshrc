@@ -17,3 +17,6 @@ source ~/.zsh/rbenv.zsh
 # source ~/.zsh/rvm.zsh
 
 # source ~/.ec2/setup
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
