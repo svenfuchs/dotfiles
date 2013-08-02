@@ -39,3 +39,4 @@ Thumbs.db
 .guard_history
 .travis
 *.tmp
+.byebug_hist
