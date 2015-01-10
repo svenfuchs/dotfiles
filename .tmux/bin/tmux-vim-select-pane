@@ -15,9 +15,12 @@ fi
 
 if $vim; then
   dir="$(echo "${1#-}" | tr 'lLDUR' '\\hjkl')"
-  tmux send-keys ":let nr = winnr() | wincmd $dir" C-m
-  tmux send-keys ":if nr == winnr() | silent call system(\"$cmd\") | end"
-  tmux send-keys C-m ':echo "\r"' C-m
+  tmux send-keys ":let nr = winnr()"
+  tmux send-keys C-m
+  tmux send-keys ":wincmd $dir"
+  tmux send-keys C-m
+  tmux send-keys ":if nr == winnr() | silent call system(\"$cmd\") | end | echo \"\r\""
+  tmux send-keys C-m
 else
   $cmd
 fi

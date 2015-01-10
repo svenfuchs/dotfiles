@@ -8,3 +8,5 @@
 
 --ignore-dir=tmp
 --ignore-dir=public
+--ignore-dir=bower_components
+--ignore-dir=node_modules

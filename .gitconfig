@@ -4,7 +4,7 @@
   name = Sven Fuchs
   email = me@svenfuchs.com
 [color]
-	ui = true
+  ui = true
   status = auto
   diff = auto
   branch = auto
@@ -21,14 +21,18 @@
   juti = commit
   jeze = push
   wasn = status
+  sup = status
+  yo = commit
   crap = reset --hard
   # remove all local branches included in the current branch
   cleanup = !git branch | grep -E '^[^*]' | xargs git branch -d
   l = log --decorate --graph --oneline
+  ll = log --decorate --graph --format='%C(blue)%ad%Creset %C(yellow)%h%Creset%C(green)%d%Creset %s [%an]'
   g = grep -n
   d = diff --word-diff
 [merge]
-	tool = diffmerge
+  tool = opendiff
+  conflictstyle = diff3
 [core]
   whitespace = fix
   quotepath = false
@@ -38,7 +42,7 @@
 [credential]
   helper = osxkeychain
 [mergetool "diffmerge"]
-	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-	trustExitCode = true
+  cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+  trustExitCode = true
 [push]
-	default = upstream
+	default = current

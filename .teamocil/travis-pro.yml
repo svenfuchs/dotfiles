@@ -19,24 +19,6 @@ session:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: travis-pro-logs
-      root: ~/Development/projects/travis/travis-pro-logs
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    # - name: travis-pro-listener
-    #   root: ~/Development/projects/travis/travis-pro-listener
-    #   filters:
-    #     before:
-    #       - 'rbenv use 1.9.3'
-    #   splits:
-    #     - cmd: vim
-    #     - cmd: clear
-    #       width: 50
     - name: travis-pro-core
       root: ~/Development/projects/travis/travis-pro-core
       filters:

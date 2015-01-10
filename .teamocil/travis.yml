@@ -1,47 +1,8 @@
 session:
   name: travis
   windows:
-    - name: pro-ci
-      root: ~/Development/projects/travis/travis-pro-ci
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-hub
-      root: ~/Development/projects/travis/travis-pro-hub
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-logs
-      root: ~/Development/projects/travis/travis-pro-logs
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-core
-      root: ~/Development/projects/travis/travis-pro-core
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: ci
-      root: ~/Development/projects/travis/travis-ci
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
+    - name: todo
+      root: ~/Development/todo
       splits:
         - cmd: vim
         - cmd: clear
@@ -50,25 +11,70 @@ session:
       root: ~/Development/projects/travis/travis-core
       filters:
         before:
-          - 'rbenv use 1.9.3'
+          - 'rbenv use 2.2.2'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: tasks
-      root: ~/Development/projects/travis/travis-tasks
+    - name: pro-core
+      root: ~/Development/projects/travis/travis-pro-core
       filters:
         before:
-          - 'rbenv use 1.9.3'
+          - 'rbenv use 2.2.2'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: logs
-      root: ~/Development/projects/travis/travis-logs
+    - name: pro-gator
+      root: ~/Development/projects/travis/travis-pro-gatekeeper
       filters:
         before:
-          - 'rbenv use jruby'
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: gator
+      root: ~/Development/projects/travis/travis-gatekeeper
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: hub
+      root: ~/Development/projects/travis/travis-hub
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: scheduler
+      root: ~/Development/projects/travis/travis-scheduler
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: sync
+      root: ~/Development/projects/travis/travis-github-sync
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: support
+      root: ~/Development/projects/travis/travis-support
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
       splits:
         - cmd: vim
         - cmd: clear
@@ -77,16 +83,88 @@ session:
       root: ~/Development/projects/travis/travis-api
       filters:
         before:
-          - 'rbenv use 1.9.3'
+          - 'rbenv use 2.2.2'
       splits:
         - cmd: vim
         - cmd: clear
           width: 50
-    - name: web
-      root: ~/Development/projects/travis/travis-web
+    - name: config
+      root: ~/Development/projects/travis/travis-config
       filters:
         before:
-          - 'rbenv use 1.9.3'
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: logger
+      root: ~/Development/projects/travis/travis-logger
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: exceptions
+      root: ~/Development/projects/travis/travis-exceptions
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: metrics
+      root: ~/Development/projects/travis/travis-metrics
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: instrumentation
+      root: ~/Development/projects/travis/travis-instrumentation
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: lock
+      root: ~/Development/projects/travis/travis-lock
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: encrypt
+      root: ~/Development/projects/travis/travis-encrypt
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: flags
+      root: ~/Development/projects/travis/travis-flags
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: monitor
+      root: ~/Development/projects/travis/monitor
+      filters:
+        before:
+          - 'rbenv use 2.2.2'
       splits:
         - cmd: vim
         - cmd: clear

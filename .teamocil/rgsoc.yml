@@ -1,0 +1,30 @@
+session:
+  name: rgsoc
+  windows:
+    - name: summer-of-code
+      root: ~/Development/projects/railsgirls/summer-of-code
+      filters:
+        before:
+          - 'rbenv use 2.1.1'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: rgsoc-campaign
+      root: ~/Development/projects/railsgirls/rgsoc-campaign
+      filters:
+        before:
+          - 'rbenv use 2.1.1'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
+    - name: rgsoc-teams
+      root: ~/Development/projects/railsgirls/rgsoc-teams
+      filters:
+        before:
+          - 'rbenv use 2.1.1'
+      splits:
+        - cmd: vim
+        - cmd: clear
+          width: 50
