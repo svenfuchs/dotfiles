@@ -1,129 +1,25 @@
-session:
-  name: te
-  windows:
-    - name: enterprise
-      root: ~/Development/projects/travis/travis-enterprise
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-core
-      root: ~/Development/projects/travis/travis-pro-core
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-web
-      root: ~/Development/projects/travis/travis-pro-web
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-api
-      root: ~/Development/projects/travis/travis-pro-api
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-gator
-      root: ~/Development/projects/travis/travis-pro-gatekeeper
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: pro-hub
-      root: ~/Development/projects/travis/travis-pro-hub
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: core
-      root: ~/Development/projects/travis/travis-core
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: web
-      root: ~/Development/projects/travis/travis-web
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: api
-      root: ~/Development/projects/travis/travis-api
-      filters:
-        before:
-          - 'rbenv use 1.9.3'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: gator
-      root: ~/Development/projects/travis/travis-gatekeeper
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: hub
-      root: ~/Development/projects/travis/travis-hub
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: tasks
-      root: ~/Development/projects/travis/travis-tasks
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: logs
-      root: ~/Development/projects/travis/travis-logs
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
-    - name: listener
-      root: ~/Development/projects/travis/travis-listener
-      filters:
-        before:
-          - 'rbenv use jruby'
-      splits:
-        - cmd: vim
-        - cmd: clear
-          width: 50
+windows:
+  - name: todo
+    root: ~/Development/todo
+    layout: even-horizontal
+    panes:
+      - vim
+      - clear
+  - name: enterprise
+    root: ~/Development/projects/travis/travis-enterprise
+    layout: even-horizontal
+    panes:
+      - vim
+      - clear
+  - name: te
+    root: ~/Development/projects/travis/te
+    layout: even-horizontal
+    panes:
+      - vim
+      - clear
+  # - name: web
+  #   root: ~/Development/projects/travis/travis-web
+  #   layout: even-horizontal
+  #   panes:
+  #     - vim
+  #     - clear

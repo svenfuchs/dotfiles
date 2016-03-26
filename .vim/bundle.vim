@@ -12,20 +12,20 @@ Bundle 'svenfuchs/vim-todo.txt'
 
 " EDITING
 
-Bundle 'terryma/vim-expand-region'
-Bundle 'tpope/vim-surround'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'mileszs/ack.vim'
+" Bundle 'tpope/vim-surround'
+" Bundle 'terryma/vim-expand-region'
 " Bundle 'kien/ctrlp.vim'
 
 " LANGUAGES
 
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'pangloss/vim-javascript'
-Bundle 'kchmck/vim-coffee-script'
+Bundle 'slim-template/vim-slim'
+" Bundle 'kchmck/vim-coffee-script'
 " Bundle 'nono/vim-handlebars'
 " Bundle 'rstacruz/sparkup.git'
-Bundle 'slim-template/vim-slim'
 " Bundle 'tpope/vim-endwise'
 " Bundle 'tpope/vim-markdown'
 

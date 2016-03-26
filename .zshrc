@@ -15,12 +15,9 @@ source ~/.zsh/key-bindings.zsh
 source ~/.zsh/grep.zsh
 source ~/.zsh/rbenv.zsh
 # source ~/.zsh/rvm.zsh
-source ~/.zsh/nvm.zsh
+# source ~/.zsh/nvm.zsh
 
 # source ~/.ec2/setup
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by travis gem
 source /Users/sven/.travis/travis.sh

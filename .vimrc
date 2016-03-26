@@ -51,7 +51,8 @@ se winheight=999
 se fillchars+=vert:           " non breaking space
 
 se noerrorbells
-se cursorline
+" super slow cursor movement, unfortunately https://github.com/vim/vim/issues/282
+" se cursorline
 se linespace=2
 se guifont=Menlo\ for\ Powerline:h14.00
 

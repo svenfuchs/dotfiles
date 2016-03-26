@@ -18,6 +18,7 @@ Thumbs.db
 .ctrlp_cache
 .cups
 .docker/
+.dockercfg
 .drip
 .dropbox
 .ec2
@@ -38,6 +39,7 @@ Thumbs.db
 .jdk/
 .lein/
 .lesshst
+.local
 .m2/
 .middleman
 .muttrc
