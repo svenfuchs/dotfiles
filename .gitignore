@@ -1,5 +1,3 @@
-/[A-Z]*
-Thumbs.db
 *.pem
 *.tmp
 .CFUserTextEncoding
@@ -35,6 +33,7 @@ Thumbs.db
 .heroku
 .hk
 .irb-history
+.irb/history
 .irb_history
 .jdk/
 .lein/
@@ -53,6 +52,7 @@ Thumbs.db
 .offlineimaprc
 .oracle_jre_usage/
 .overtone/
+.packer.d
 .postgres
 .pry_history
 .python-eggs
@@ -67,6 +67,7 @@ Thumbs.db
 .ssh
 .subversion
 .sup/
+.terraform.d
 .travis
 .trvs
 .tugboat
@@ -79,3 +80,5 @@ Thumbs.db
 .zsh/.*
 .zsh/secrets.zsh
 .zsh_history
+/[A-Z]*
+Thumbs.db

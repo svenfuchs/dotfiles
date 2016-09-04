@@ -11,6 +11,7 @@ export PATH="$PATH:$HOME/.tmux/bin"
 export PATH="$PATH:$HOME/Development/projects/travis/travis-enterprise/build/bin"
 export PATH="$PATH:$HOME/Development/go/bin"
 export PATH="$PATH:$HOME/Development/go/src/github.com/svenfuchs/todo"
+export PATH="$PATH:/usr/local/packer:/usr/local/terraform"
 export PATH="$PATH:/usr/local/heroku/bin" # Added by the Heroku Toolbelt
 
 # export PATH="$PATH:/Users/sven/Applications/bin"

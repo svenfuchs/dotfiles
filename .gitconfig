@@ -45,4 +45,4 @@
   cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
   trustExitCode = true
 [push]
-	default = current
+  default = current

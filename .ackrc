@@ -6,6 +6,7 @@
 --type-set=exclude=.orig
 --noexclude
 
+--ignore-dir=data
 --ignore-dir=tmp
 --ignore-dir=public
 --ignore-dir=bower_components

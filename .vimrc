@@ -31,8 +31,8 @@ se backspace=indent,eol,start " allow backspacing over everything in insert mode
 se scrolloff=6                " keep 4 lines of context when scrolling
 set showbreak=↪
 
-se foldmethod=syntax
-se nofoldenable
+" se foldmethod=syntax
+" se nofoldenable
 
 se incsearch                  " do incremental search
 se hlsearch                   " highlight search results
