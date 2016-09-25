@@ -36,6 +36,7 @@ Bundle 'slim-template/vim-slim'
 
 " APPEARANCE
 
+" Bundle 'svenfuchs/vim-layout'
 Bundle 'svenfuchs/vim-tree'
 " Bundle 'vim-airline/vim-airline'
 " Bundle 'vim-airline/vim-airline-themes'

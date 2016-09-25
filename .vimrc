@@ -53,8 +53,8 @@ se fillchars+=vert:           " non breaking space
 se noerrorbells
 " super slow cursor movement, unfortunately https://github.com/vim/vim/issues/282
 " se cursorline
-se linespace=2
-se guifont=Menlo\ for\ Powerline:h14.00
+" se linespace=2
+" se guifont=Menlo\ for\ Powerline:h14.00
 
 se clipboard=unnamed          " use the OSX clipboard
 " se paste
@@ -92,6 +92,6 @@ au VimEnter * exe ":VimTree"
 
 let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir']
 
-se noshowmode                 " airline shows the mode
-let g:airline_powerline_fonts = 1
-let g:airline_section_z="%3p%%%4l%:%3v"
+" se noshowmode                 " airline shows the mode
+" let g:airline_powerline_fonts = 1
+" let g:airline_section_z="%3p%%%4l%:%3v"
