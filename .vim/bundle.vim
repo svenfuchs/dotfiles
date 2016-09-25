@@ -43,3 +43,6 @@ Bundle 'svenfuchs/vim-tree'
 " Bundle 'flazz/vim-colorschemes'
 " Bundle 'godlygeek/csapprox'
 " Bundle 'Lokaltog/vim-powerline'
+
+" TMUX
+Bundle 'christoomey/vim-tmux-navigator'
