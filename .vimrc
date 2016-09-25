@@ -4,7 +4,7 @@ source ~/.vim/bundle.vim
 filetype plugin indent on
 se nocompatible
 
-colorscheme solarized
+colorscheme smyck
 se background=dark
 
 syntax on                      " syntax highlighting
