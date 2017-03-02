@@ -1,0 +1,5 @@
+AwesomePrint.defaults = {
+  index: false,
+  indent: -2,
+  ruby19_syntax: true
+}

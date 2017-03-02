@@ -14,6 +14,7 @@ source ~/.zsh/key-bindings.zsh
 
 source ~/.zsh/grep.zsh
 source ~/.zsh/rbenv.zsh
+source ~/.zsh/tmux.zsh
 # source ~/.zsh/rvm.zsh
 # source ~/.zsh/nvm.zsh
 
@@ -25,3 +26,5 @@ source /Users/sven/.travis/travis.sh
 if [ -f ./.env ]; then
   source ./.env
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

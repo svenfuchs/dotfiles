@@ -1,0 +1,45 @@
+session_name: travis
+start_directory: ~/Development
+windows:
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/todo
+  window_name: todo
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/teal-report
+  window_name: teal
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/travis-gatekeeper
+  window_name: gator
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/travis-hub
+  window_name: hub
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/travis-scheduler
+  window_name: scheduler
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/travis-github-sync
+  window_name: sync
+- layout: even-horizontal
+  panes:
+  - vim
+  -
+  shell_command_before: cd ~/Development/projects/travis/travis-api
+  window_name: api

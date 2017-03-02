@@ -34,3 +34,4 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
 
 export GOPATH="/Users/sven/Development/go"
 
+export TRAVIS_KEYCHAIN_DIR=/Users/sven/Development/projects/travis

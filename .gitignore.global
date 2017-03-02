@@ -18,7 +18,6 @@ test/version_tmp
 tmp
 .yardoc
 _yardoc
-doc/
 *.rbc
 *.sassc
 .sass-cache
