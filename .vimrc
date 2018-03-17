@@ -69,6 +69,13 @@ au WinEnter * wincmd _        " horizontally maximize windows on enter
 
 let mapleader = " "
 
+inoremap § <ESC>
+vnoremap § <ESC>
+
+" noremap <c-i> <ESC>
+" inoremap <c-i> <ESC>
+" vnoremap <c-i> <esc>
+
 map <tab> <c-w>w
 map <s-tab> <c-w>W
 

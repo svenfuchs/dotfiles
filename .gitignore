@@ -13,6 +13,7 @@
 .bundle
 .byebug_hist
 .cache
+.cargo/
 .ctrlp_cache
 .cups
 .docker/
@@ -27,10 +28,13 @@
 .gist
 .git
 .gnupg
+.gnupg_pre_2.1/
+.gore/
 .gpg*
 .gradle
 .guard_history
 .heroku
+.hex/
 .hk
 .irb-history
 .irb/history
@@ -41,6 +45,8 @@
 .local
 .m2/
 .middleman
+.mix/
+.multirust
 .muttrc
 .netrc
 .node-gyp
@@ -53,6 +59,7 @@
 .oracle_jre_usage/
 .overtone/
 .packer.d
+.papertrail.yml
 .postgres
 .pry_history
 .python-eggs
@@ -61,6 +68,7 @@
 .rediscli_history
 .rnd
 .rubinius_last_error
+.rustup/
 .rvm
 .sh_history
 .sqlite_history
@@ -68,10 +76,12 @@
 .subversion
 .sup/
 .terraform.d
+.tldr/
 .travis
 .trvs
 .tugboat
 .vagrant.d
+.vim/.netrwhist
 .vim/.viminfo
 .vim/bundle
 .wireshark

@@ -3,7 +3,7 @@ se nocompatible
 
 " source ~/Development/play/vim-todo.txt/syntax/todo.vim
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 filetype plugin indent on
@@ -22,7 +22,9 @@ Bundle 'mileszs/ack.vim'
 
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'pangloss/vim-javascript'
-Bundle 'slim-template/vim-slim'
+Bundle 'rust-lang/rust.vim'
+" Bundle 'slashmili/alchemist.vim'
+Bundle 'elixir-editors/vim-elixir'
 " Bundle 'kchmck/vim-coffee-script'
 " Bundle 'nono/vim-handlebars'
 " Bundle 'rstacruz/sparkup.git'

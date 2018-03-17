@@ -40,9 +40,13 @@
 [heroku]
   account = sven
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 [mergetool "diffmerge"]
   cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
   trustExitCode = true
 [push]
   default = current
+[github]
+	user = svenfuchs
+[pull]
+	default = current

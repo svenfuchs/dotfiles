@@ -16,7 +16,7 @@ https://coderwall.com/p/rwmdvq?i=2&p=1&q=author%3Amislav&t%5B%5D=mislav
 
 ; vim, fix clipboard
 ; https://gist.github.com/721952
-brew install https://raw.github.com/gist/721952/vim.rb --HEAD --with-features=huge --enable-clipboard --enable-interp=ruby
+brew install https://gist.githubusercontent.com/uasi/721952/raw/1c0b3393dd35672239f5adc2351d3ec298f64891/vim.rb --HEAD --with-features=huge --enable-clipboard --enable-interp=ruby
 
 
 ; tmux

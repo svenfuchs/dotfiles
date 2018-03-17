@@ -13,6 +13,7 @@ export PATH="$PATH:$HOME/Development/go/bin"
 export PATH="$PATH:$HOME/Development/go/src/github.com/svenfuchs/todo"
 export PATH="$PATH:/usr/local/packer:/usr/local/terraform"
 export PATH="$PATH:/usr/local/heroku/bin" # Added by the Heroku Toolbelt
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # export PATH="$PATH:/Users/sven/Applications/bin"
 

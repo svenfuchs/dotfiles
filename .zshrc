@@ -15,13 +15,14 @@ source ~/.zsh/key-bindings.zsh
 source ~/.zsh/grep.zsh
 source ~/.zsh/rbenv.zsh
 source ~/.zsh/tmux.zsh
+source ~/.zsh/trvs.zsh
 # source ~/.zsh/rvm.zsh
 # source ~/.zsh/nvm.zsh
 
 # source ~/.ec2/setup
 
-# added by travis gem
-source /Users/sven/.travis/travis.sh
+# # added by travis gem
+# source /Users/sven/.travis/travis.sh
 
 if [ -f ./.env ]; then
   source ./.env
